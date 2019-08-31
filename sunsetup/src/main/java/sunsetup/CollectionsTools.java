@@ -10,8 +10,8 @@ public class CollectionsTools {
 	public static List<String> getDefaultNames() {
 		return Arrays.asList(defaultNames);
 	}
-v5
+
 	public static String format(List<String> names) {
-		return "format test v2 v3 v4 ";
+		return "format test v2 v3 v4 v5";
 	}
 }
