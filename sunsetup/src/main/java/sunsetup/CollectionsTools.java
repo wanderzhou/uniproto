@@ -12,6 +12,6 @@ public class CollectionsTools {
 	}
 
 	public static String format(List<String> names) {
-		return "format test";
+		return "format test v2";
 	}
 }
