@@ -11,4 +11,7 @@ public class CollectionsTools {
 		return Arrays.asList(defaultNames);
 	}
 
+	public static String format(List<String> names) {
+		return "";
+	}
 }
