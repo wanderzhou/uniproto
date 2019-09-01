@@ -8,9 +8,9 @@
  * in the user guide at https://docs.gradle.org/4.3/userguide/multi_project_builds.html
  */
 
+rootProject.name = 'rootproject'
 
 // To declare projects as part of a multi-project build use the 'include' method
 include ':sunsetup'
 
-project(':sunsetup').projectDir = file('../sunsetup')
-rootProject.name = 'rootproject'
+project(':sunsetup').projectDir = new File(settingsDir, '../sunsetup')
